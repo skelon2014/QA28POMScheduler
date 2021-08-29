@@ -26,14 +26,14 @@ public class ConfigScheduler {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("deviceName","Pixel");
+        capabilities.setCapability("deviceName","Nex5");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"8.0");
         capabilities.setCapability("appPackage","com.example.svetlana.scheduler");
         capabilities.setCapability("appActivity",".presentation.splashScreen.SplashScreenActivity");
 
         capabilities.setCapability("automationName","Appium");
-        capabilities.setCapability("app","C:\\Users\\User\\OneDrive\\Documents\\GitHub\\QA28POMScheduler\\src\\resource\\v.0.0.3.apk");
+        capabilities.setCapability("app","C:/Users/Study/APK/v.0.0.3.apk");
 
         driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -42,7 +42,7 @@ public class ConfigScheduler {
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+       // driver.quit();
     }
 
 

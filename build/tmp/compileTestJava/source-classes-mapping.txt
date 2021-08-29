@@ -2,3 +2,7 @@ testScheduler/TestStart.java
  testScheduler.TestStart
 testScheduler/LaunchAppTest.java
  testScheduler.LaunchAppTest
+testScheduler/NegativeLoginTest.java
+ testScheduler.NegativeLoginTest
+testScheduler/LoginTest.java
+ testScheduler.LoginTest
