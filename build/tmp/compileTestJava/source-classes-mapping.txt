@@ -1,3 +1,5 @@
+testScheduler/LoginDataProvider.java
+ testScheduler.LoginDataProvider
 testScheduler/TestStart.java
  testScheduler.TestStart
 testScheduler/LaunchAppTest.java

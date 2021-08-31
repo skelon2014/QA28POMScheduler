@@ -4,7 +4,6 @@ import config.ConfigScheduler;
 import dto.AuthDTO;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pagesScheduler.LoginScreen;
 import pagesScheduler.SplashScreen;
 
 public class NegativeLoginTest extends ConfigScheduler {
@@ -21,7 +20,9 @@ public class NegativeLoginTest extends ConfigScheduler {
                 .fillFormLogin(negdto)
                 .errorLogin()
                 .errorMessage();
+
         Assert.assertEquals(error, "Wrong email or password");
 
     }
+
 }

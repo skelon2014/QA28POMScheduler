@@ -1,17 +1,19 @@
-config/ConfigScheduler.java
- config.ConfigScheduler
+config/MyDataProvider.java
+ config.MyDataProvider
 dto/AuthTest.java
  dto.AuthTest
 dto/AuthDTO.java
  dto.AuthDTO
  dto.AuthDTO$AuthDTOBuilder
+pagesScheduler/BaseScreen.java
+ pagesScheduler.BaseScreen
 pagesScheduler/WizardScreen.java
  pagesScheduler.WizardScreen
 pagesScheduler/SplashScreen.java
  pagesScheduler.SplashScreen
-pagesScheduler/BaseScreen.java
- pagesScheduler.BaseScreen
 pagesScheduler/HomeScreen.java
  pagesScheduler.HomeScreen
 pagesScheduler/LoginScreen.java
  pagesScheduler.LoginScreen
+config/ConfigScheduler.java
+ config.ConfigScheduler

@@ -18,9 +18,22 @@ public class HomeScreen extends BaseScreen {
         should(fabAdd, 15);
         return true;
     }
+    @AndroidFindBy(xpath = "//*[@content-desc = 'Open']")
+    MobileElement burgerMenu;
+    @AndroidFindBy(xpath = "//*[@resource-id = 'com.example.svetlana.scheduler:id/nav_fr_logout']")
+    MobileElement logoutButton;
+
+    public HomeScreen openMenu(){
+        burgerMenu.click();
+        return this;
+    }
+
+    public LoginScreen logout(){
+        logoutButton.click();
+        return new LoginScreen(driver);
+    }
 
 
 
-//===================================================================================
 
 }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testScheduler.NegativeLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-29T19:43:10" hostname="DESKTOP-V8HD5F2" time="15.69">
-  <properties/>
-  <testcase name="negativeLoginWithDTO" classname="testScheduler.NegativeLoginTest" time="15.69"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 29, 2021 10:43:10 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-</testsuite>

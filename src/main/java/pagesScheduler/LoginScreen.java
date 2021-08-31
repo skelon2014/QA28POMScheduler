@@ -1,11 +1,10 @@
 package pagesScheduler;
 
 import dto.AuthDTO;
+import dto.AuthTest;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 
 public class LoginScreen extends BaseScreen {
 
@@ -53,6 +52,13 @@ public class LoginScreen extends BaseScreen {
         type(passwordEditText, auth.getPassword());
         return this;
     }
+
+    public LoginScreen fillformLogin(AuthTest test){
+        type(emailEditText,test.getEmail());
+        type(passwordEditText,test.getPassword());
+        return this;
+    }
+
     public LoginScreen errorLogin(){
         hideKeyBoard();
         loginButton.click();
@@ -60,6 +66,7 @@ public class LoginScreen extends BaseScreen {
     }
 
     public String errorMessage(){
+     //   should(errorMes,10);//mozno c etim sdelat'
         return errorMes.getText();
     }
 }
