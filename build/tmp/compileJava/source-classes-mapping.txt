@@ -7,6 +7,8 @@ dto/AuthDTO.java
  dto.AuthDTO$AuthDTOBuilder
 pagesScheduler/BaseScreen.java
  pagesScheduler.BaseScreen
+config/ConfigScheduler.java
+ config.ConfigScheduler
 pagesScheduler/WizardScreen.java
  pagesScheduler.WizardScreen
 pagesScheduler/SplashScreen.java
@@ -15,5 +17,7 @@ pagesScheduler/HomeScreen.java
  pagesScheduler.HomeScreen
 pagesScheduler/LoginScreen.java
  pagesScheduler.LoginScreen
-config/ConfigScheduler.java
- config.ConfigScheduler
+pagesScheduler/EditCreateEventScreen.java
+ pagesScheduler.EditCreateEventScreen
+config/ConfigNewAndroid10.java
+ config.ConfigNewAndroid10

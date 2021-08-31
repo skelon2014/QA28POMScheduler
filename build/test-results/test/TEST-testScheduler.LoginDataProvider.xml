@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testScheduler.LoginDataProvider" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-30T17:20:10" hostname="DESKTOP-V8HD5F2" time="68.865">
-  <properties/>
-  <testcase name="loginWithDTO[0](skelon+204@bk.ru, Qwerty$4)" classname="testScheduler.LoginDataProvider" time="24.897"/>
-  <testcase name="loginWithDTO[1](skelon+211@bk.ru, Qwerty$4)" classname="testScheduler.LoginDataProvider" time="22.229"/>
-  <testcase name="loginWithDTO[2](skelon+210@bk.ru, Qwerty$4)" classname="testScheduler.LoginDataProvider" time="21.731"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
