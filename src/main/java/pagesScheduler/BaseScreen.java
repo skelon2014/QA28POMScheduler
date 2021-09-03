@@ -41,8 +41,5 @@ public class BaseScreen {
         }catch (Exception ex){
             return false;
         }
-
     }
-
-
 }

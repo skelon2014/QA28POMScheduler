@@ -35,7 +35,7 @@ public class HomeScreen extends BaseScreen {
         return new LoginScreen(driver);
     }
 
-    public EditCreateEventScreen iniCreationEvent(){
+    public EditCreateEventScreen initCreationEvent(){
         fabAdd.click();
         fabbAddEvent.click();
         return new EditCreateEventScreen(driver);

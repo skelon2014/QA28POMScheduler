@@ -1,7 +1,7 @@
-testScheduler/TestStart.java
- testScheduler.TestStart
 testScheduler/LoginDataProvider.java
  testScheduler.LoginDataProvider
+testScheduler/TestStart.java
+ testScheduler.TestStart
 testScheduler/LoginWithBefore.java
  testScheduler.LoginWithBefore
 testScheduler/LaunchAppTest.java
@@ -12,3 +12,5 @@ testScheduler/LoginTest.java
  testScheduler.LoginTest
 testScheduler/EventCreateTest.java
  testScheduler.EventCreateTest
+testScheduler/EventCreateTestDTO.java
+ testScheduler.EventCreateTestDTO

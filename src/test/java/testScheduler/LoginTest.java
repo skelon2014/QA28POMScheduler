@@ -2,12 +2,9 @@ package testScheduler;
 
 import config.ConfigScheduler;
 import dto.AuthDTO;
-import dto.AuthTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pagesScheduler.LoginScreen;
 import pagesScheduler.SplashScreen;
-import pagesScheduler.WizardScreen;
 
 public class LoginTest extends ConfigScheduler {
 
