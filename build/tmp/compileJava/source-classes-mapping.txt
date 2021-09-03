@@ -22,5 +22,13 @@ pagesScheduler/LoginScreen.java
  pagesScheduler.LoginScreen
 pagesScheduler/EditCreateEventScreen.java
  pagesScheduler.EditCreateEventScreen
+config/ConfigAdvanced.java
+ config.ConfigAdvanced
 config/ConfigScheduler.java
  config.ConfigScheduler
+pagesAdvanced/BaseScreenADV.java
+ pagesAdvanced.BaseScreenADV
+pagesAdvanced/DragableBasicScreen.java
+ pagesAdvanced.DragableBasicScreen
+pagesAdvanced/DragScreen.java
+ pagesAdvanced.DragScreen
