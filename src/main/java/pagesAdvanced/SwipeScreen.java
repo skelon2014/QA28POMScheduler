@@ -9,7 +9,7 @@ public class SwipeScreen extends BaseScreenADV {
     public SwipeScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@resource-id='com.h6ah4i.android.example.advrecyclerview:id/button'][2]")
     MobileElement swipeBasic;
 
     public SwipeableBasicScreen selectSwipeBasic(){

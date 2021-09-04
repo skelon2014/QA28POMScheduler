@@ -4,6 +4,8 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -20,6 +22,7 @@ public class ConfigScheduler {
         //    "appActivity": ".presentation.splashScreen.SplashScreenActivity"
 
     protected AppiumDriver <MobileElement> driver;
+    Logger logger = LoggerFactory.getLogger(ConfigScheduler.class);
 
     @BeforeSuite
     public void setUp() throws MalformedURLException {
@@ -40,11 +43,13 @@ public class ConfigScheduler {
 
       //  new SplashScreen(driver)
         //             .checkVersion("0.0.3");tak tozhe prohodit
+        logger.info("Start app Scheduler");
     }
 
     @AfterSuite
     public void tearDown(){
-       // driver.quit();
+        logger.info("Start app Scheduler");
+        driver.quit();
     }
 
 

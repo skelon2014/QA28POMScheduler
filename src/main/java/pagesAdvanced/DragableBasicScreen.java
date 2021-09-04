@@ -25,7 +25,7 @@ public class DragableBasicScreen extends BaseScreenADV {
         int yFrom = rect.getY() + rect.getHeight()/2;
 
         int xTo = xFrom;
-        int yTo = yFrom + 3*rect.getHeight();
+        int yTo = yFrom + rect.getHeight();
 
         TouchAction<?> touchAction = new TouchAction<>(driver);
         touchAction.longPress(PointOption.point(xFrom,yFrom))

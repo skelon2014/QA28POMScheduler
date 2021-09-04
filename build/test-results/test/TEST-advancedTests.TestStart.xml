@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="advancedTests.TestStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-03T15:35:52" hostname="DESKTOP-V8HD5F2" time="7.249">
+<testsuite name="advancedTests.TestStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-04T11:59:24" hostname="DESKTOP-V8HD5F2" time="6.324">
   <properties/>
-  <testcase name="dragDownCountTestWindow" classname="advancedTests.TestStart" time="7.249"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="dragDownTest" classname="advancedTests.TestStart" time="6.324"/>
+  <system-out><![CDATA[14:59:30 INFO  config.ConfigAdvanced - DragDownTest
+14:59:30 INFO  config.ConfigAdvanced - +++++++++++++++++++
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

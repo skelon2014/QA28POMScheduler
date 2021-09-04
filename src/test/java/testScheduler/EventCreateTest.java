@@ -24,6 +24,7 @@ public class EventCreateTest extends ConfigScheduler {
                 .confirmCreationEvent()
                 .isFabAddPresent();
         Assert.assertTrue(isEventCreated);
+
     }
     @AfterTest
     public void postCondition(){

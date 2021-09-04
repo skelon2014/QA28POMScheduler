@@ -12,7 +12,7 @@ testScheduler/NegativeLoginTest.java
  testScheduler.NegativeLoginTest
 testScheduler/LoginTest.java
  testScheduler.LoginTest
-testScheduler/EventCreateTest.java
- testScheduler.EventCreateTest
 advancedTests/TestStart.java
  advancedTests.TestStart
+testScheduler/EventCreateTest.java
+ testScheduler.EventCreateTest

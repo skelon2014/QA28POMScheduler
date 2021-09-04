@@ -10,6 +10,8 @@ public class TestStart extends ConfigAdvanced {
         new DragScreen(driver)
                 .selectDraggableBasic()
                 .dragDown();
+logger.info("DragDownTest");
+logger.info("+++++++++++++++++++");
 
     }
 
@@ -25,6 +27,14 @@ public class TestStart extends ConfigAdvanced {
         new DragScreen(driver)
                 .selectDraggableBasic()
                 .dragDownWindow();
+    }
 
+    @Test
+    public void swipeTest(){
+        new DragScreen(driver)
+                .selectSwipe()
+                .selectSwipeBasic()
+                .swipeLeftToRight()
+                .swipeRightToLeft();
     }
 }
